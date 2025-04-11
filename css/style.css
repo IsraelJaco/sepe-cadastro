@@ -1,0 +1,112 @@
+/* Estilos principais para a página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Cor de fundo escura */
+    color: white; /* Cor do texto */
+  }
+  
+  header {
+    background-color: #af9d36; /* Amarelo */
+    color: black; /* Texto preto para contraste */
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  header img {
+    max-width: 150px;
+    margin-bottom: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  button {
+    background-color: #FFD700; /* Amarelo */
+    color: black; /* Texto preto */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #FFC107; /* Amarelo mais escuro */
+  }
+  
+  main {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #111; /* Cor de fundo mais escura */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      padding: 1rem;
+    }
+  
+    main {
+      padding: 1rem;
+    }
+  }
+  
+  /* Estilo para o formulário */
+  form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  form div {
+    margin-bottom: 1rem;
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: black; /* Texto preto para contraste */
+  }
+  
+  form input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form input[type="file"] {
+    padding: 0.5rem;
+  }
+  
+  form button {
+    background-color: #50450a; /* Amarelo */
+    color: black; /* Texto preto */
+    border: none;
+    padding: 0.8rem;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  form button:hover {
+    background-color: #FFC107; /* Amarelo mais escuro */
+  }
+  
