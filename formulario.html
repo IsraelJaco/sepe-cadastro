@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro SEPE</title>
+  <link rel="stylesheet" href="css/styleF.css"> <!-- Link para o arquivo de estilo -->
+</head>
+<body>
+
+  <header>
+    <h1>Cadastro no SEPE</h1>
+  </header>
+
+  <main>
+    <form id="form-cadastro" enctype="multipart/form-data">
+      <div>
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" name="nome" required>
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div>
+        <label for="bi">BI (Bilhete de Identidade)</label>
+        <input type="file" id="bi" name="bi" accept=".pdf" required>
+      </div>
+
+      <div>
+        <label for="certificado">Certificado</label>
+        <input type="file" id="certificado" name="certificado" accept=".pdf" required>
+      </div>
+
+      <div>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required>
+      </div>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SEPE. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/formulario.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+</html>
